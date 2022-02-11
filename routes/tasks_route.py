@@ -8,6 +8,8 @@ from config.database import collection_name
 from schemas.tasks_schemas import task_serializer,tasks_serializer
 
 from bson import ObjectId
+from bson.objectid import ObjectId
+
 
 task_api_router = APIRouter() 
 
